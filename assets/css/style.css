@@ -1,0 +1,165 @@
+* {
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/* CSS font rule
+font-family: 'Abel', sans-serif;
+font-family: 'Source Code Pro', monospace;
+*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dae2f1;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}   
+
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header h1 {
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+}
+
+header h2 {
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.title_bar {
+    height: 3px;
+    width: 100%;
+    background-color: #84a0d2 ;
+}
+
+nav ul {
+    list-style: none;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    font-size: 19px;
+    padding-right: 50px;
+    text-transform: uppercase;
+    height: 21px;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu a:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+.sc_main {
+    display: flex;
+    align-items: center;
+}
+
+.sc_main_img img {
+    border: 1px solid #84a0d2;
+    width: 650px;
+}
+
+.quote blockquote {
+    font-size: 35px;
+}
+
+#bio {
+    display: flex;
+    justify-content: center;
+
+}
+
+#disc {
+    display: flex;
+    justify-content: center;
+}
+
+#film {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1 {  
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;  
+    margin-top: 15px;
+
+}
+.bio_content {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #84a0d2;
+    border-radius: 15px;
+    background-color:#84a0d2 ;
+    padding:  5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.disc_content {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #84a0d2;
+    border-radius: 15px;
+    background-color:#84a0d2 ;
+    padding:  5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.border_top {
+    padding: 5px;
+    border-left: 2px solid #84a0d2;
+    border-right: 2px solid #84a0d2;
+}
+
+.border_bottom {
+    padding: 5px;
+    border-left: 2px solid #84a0d2;
+    border-right: 2px solid #84a0d2;
+}
